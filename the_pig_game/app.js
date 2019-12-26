@@ -71,7 +71,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 	
 	//check if the player won the game:
 	//player with 100 overall score points wins
-	if(scores[activePlayer] >= 10){
+	if(scores[activePlayer] >= 100){
 		document.querySelector('#name-' + activePlayer).textContent += ' Wins!';
 		
 		//removing active player hint:
