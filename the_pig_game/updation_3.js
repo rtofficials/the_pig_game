@@ -7,30 +7,8 @@
 
 var gameOn = true, scores, roundScores, activePlayer, lastRoll;
 again();
-//Math.random() --> number between 0 and 1
-//Math.random()*6 --> number between 0 and 5
-//(Math.random()*6) +1 --> number between 1 and 6
 
-//console.log(dice);
-//setter method
-//document.querySelector('#current-' + activePlayer).textContent = dice; //document object to access dom;  querySelector selects exactly the way as in css but the only difference is that is selects only the first element it finds.
-
- //document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + "</em>" ;
-//current score of the round will be show in italics
-
-//getter method
-/*
-var x = document.querySelector('#score-' + activePlayer).textContent;
-
-console.log(x); //output : value of score-1 or score-0 
-*/
-
-/*function btn(){
-	
-}
-btn();
-
-document.querySelector('.btn-roll').addEventListener('click', btn);//'btn' is a function and here used to tell the event listener method to call this function whenever 'click' event occurs.
+document.querySelector('.btn-roll').addEventListener('click', btn);
 //The 'btn' function is not followed by '()' because here we are not calling function but the event listener is calling the function for us.
 //here, btn() is called CALLBACK FUNCTION.
 
